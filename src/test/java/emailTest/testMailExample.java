@@ -53,6 +53,8 @@ public class testMailExample {
 
         //Links
         // How many links?
+        System.out.println("====LINKS====");
+
         System.out.println("Links found in email is = " + message.html().links().size()); // 2
 
         Link firstLink = message.html().links().get(0);
@@ -60,6 +62,8 @@ public class testMailExample {
         System.out.println(firstLink.href()); // "https://www.google.com/"
 
         //Attachment
+        System.out.println("====Attachment====");
+
         System.out.println("Attachment found in email is = " + message.attachments().size()); // 2
 
         Attachment firstAttachment = message.attachments().get(0);
