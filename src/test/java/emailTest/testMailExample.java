@@ -31,6 +31,10 @@ public class testMailExample {
 
         Message message = mailosaur.messages().get(params, criteria);
 
+        System.out.println("subject= " + message.subject());
+        System.out.println("cc= " + message.cc());
+        System.out.println("to= " + message.to());
+
         assertNotNull(message);
         assertEquals("QA - Muhammad Nurfaizi", message.subject());
 
