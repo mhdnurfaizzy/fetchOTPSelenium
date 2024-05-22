@@ -33,7 +33,7 @@ public class testMailExample {
 
         System.out.println("subject= " + message.subject());
         System.out.println("cc= " + message.cc());
-        System.out.println("to= " + message.to());
+        System.out.println("to= " + message.to().get(0).email());
 
         assertNotNull(message);
         assertEquals("QA - Muhammad Nurfaizi", message.subject());
