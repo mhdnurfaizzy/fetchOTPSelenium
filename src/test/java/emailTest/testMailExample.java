@@ -18,9 +18,10 @@ public class testMailExample {
     @Test
     public void testMailExample() throws MailosaurException, IOException {
         // Available in the API tab of a server
-        String apiKey = "uUps3WcZQUATtcCUijlzSkHNQinptQtl";
-        String serverId = "lyoxcf21";
-        String serverDomain = "lyoxcf21.mailosaur.net";
+        //DOCS MAILOSAUR https://mailosaur.com/docs/languages/java
+        String apiKey = "Your-Api";
+        String serverId = "SERVERID";
+        String serverDomain = "SERVERDOMAIN";
 
         MailosaurClient mailosaur = new MailosaurClient(apiKey);
 

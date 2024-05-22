@@ -17,9 +17,9 @@ import java.util.regex.Pattern;
 public class ReziOTPTest {
 
     // Available in the API tab of a server
-    String apiKey = "uUps3WcZQUATtcCUijlzSkHNQinptQtl";
-    String serverId = "lyoxcf21";
-    String serverDomain = "lyoxcf21.mailosaur.net";
+    String apiKey = "Your-Api";
+    String serverId = "SERVERID";
+    String serverDomain = "SERVERDOMAIN";
     String from = "support@rezi.io";
 
     public String getRandomEmail() {
